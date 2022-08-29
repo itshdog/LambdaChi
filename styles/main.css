@@ -228,6 +228,8 @@ footer {
 }
 
 #sub-title {
+    cursor: default;
+    user-select: none;
     font-weight: 700;
     font-size: 0.75rem;
     color: #FFB71D;
