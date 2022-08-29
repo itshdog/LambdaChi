@@ -5,8 +5,8 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none!important;
+    color: inherit!important;
 }
 
 footer {
@@ -143,6 +143,37 @@ footer {
     font-size: 1.4em;
     margin: 0.4em 0.5em 0 0;
     color: #FFB71D;
+}
+
+#sm-icon-list {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 3em;
+    margin-bottom: 15px;
+}
+
+.sm-icon-button {
+    width: fit-content;
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+}
+
+.sm-icon-button a {
+    width: 100%;
+    display: inline-block;
+    transition: 0.5s;
+    transform: translateY(0px);
+    font-size: 2em;
+}
+
+.sm-icon-button a:hover {
+    background-color: #FFB71D;
+    border-radius: 999em;
+    transition: 0.5s;
+    transform: translateY(-5px);
 }
 
 .icon-button {
