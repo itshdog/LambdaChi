@@ -68,7 +68,7 @@ footer {
 #newsletter-wrapper {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.55);
     position: fixed;
     left: 0;
     top: 0;
@@ -80,7 +80,7 @@ footer {
 
 #newsletter {
     width: 90%;
-    max-width: 600px;
+    max-width: 500px;
     background: #2E1A4B;
     border-radius: 1em;
     position: fixed;
@@ -92,6 +92,7 @@ footer {
 #newsletter-top {
     width: 100%;
     display: inline-block;
+    margin: 0.5em 1em;
 }
 
 #newsletter-bottom {
@@ -103,7 +104,8 @@ footer {
     overflow-x: hidden;
     max-height: 70vh;
     width: 100%;
-    padding: 10px;
+    margin: auto;
+    padding: 0 10px 1em 10px;
 }
 
 #newsletter-bottom a {
@@ -114,7 +116,7 @@ footer {
 
 .newsletter-item {
     display: inline-block;
-    width: 100%!important;
+    width: calc(100% - 5px)!important;
     padding: 0 1em 0.25em 1em;
     cursor: pointer;
     overflow-y: scroll;
@@ -139,15 +141,15 @@ footer {
 #newsletter-title {
     font-weight: 700;
     font-size: 2em;
-    float: left;
-    padding: 5px;
-    padding-left: 1em;
+    text-align: center;
 }
 
 .close {
     transition: 1s;
     cursor: pointer;
-    float: right!important;
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: 1.4em;
     margin: 0.4em 0.5em 0 0;
     color: #FFB71D;
